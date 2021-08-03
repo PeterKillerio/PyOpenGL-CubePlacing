@@ -24,7 +24,13 @@ This repository contains Python OpenGL environment with this functionality:
   source: https://stackoverflow.com/questions/56609044/how-create-a-camera-on-pyopengl-that-can-do-perspective-rotations-on-mouse-mov/56609894#56609894
 
 
+## Dependencies
+
+  Conda environment dependencies in 'environment.yml'
+
 ## Architecture
+
+![Screenshot](media/run_increment_cubes_example.png)
 
 ### class: SceneManager
 
@@ -33,7 +39,11 @@ In order to render object/entity in a scene, objects have to be added/be include
 SceneManager.scene_objects, or SceneManager.entities.
 
 #### Functions
+
+  - Called at the beginning
+  ```
   def initialize_scene(self):
+  ```
 
   - Called by event_check() - logic for w,s,a,d+mouse movement
   ```
