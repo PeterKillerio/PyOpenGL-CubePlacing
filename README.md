@@ -115,7 +115,7 @@ Pointcloud of a person represented by cubes can be an example of separate entity
 
 Basic object with its definitions of edges, surfaces, normal-sides, colors and vertices
 
-#### Functions
+##### Functions
   - Changing scale will result in a cube with edges of size 'scale'
   ```
   def rescale(self, scale=1.0): # scale: <float (0.0 to 1.0) >
@@ -130,7 +130,7 @@ Basic object with its definitions of edges, surfaces, normal-sides, colors and v
 
 Helper class for easier operation with dimensions and positions/points.
 
-### Functions
+#### Functions
   ```
   def get_tuple(self):
       return (self.x, self.y, self.z)
@@ -139,7 +139,7 @@ Helper class for easier operation with dimensions and positions/points.
 
 Helper class for easier manipulation with colors.
 
-#### Function
+#### Functions
   ```
   def get_tuple(self):
     return (self.R, self.G, self.B)
